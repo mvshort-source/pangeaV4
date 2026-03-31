@@ -1,0 +1,12 @@
+[build]
+  publish = "pangea-v3"
+  functions = "pangea-v3/functions"
+
+[functions]
+  directory = "pangea-v3/functions"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
